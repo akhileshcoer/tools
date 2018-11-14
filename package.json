@@ -1,0 +1,30 @@
+{
+  "name": "tools-cli",
+  "version": "1.0.0",
+  "description": "Tools",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhileshcoer/tools.git"
+  },
+  "author": "akhilesh yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhileshcoer/tools/issues"
+  },
+  "homepage": "https://github.com/akhileshcoer/tools#readme",
+  "bin": {
+    "ay": "./bin/cli.js"
+  },
+  "dependencies": {
+    "chalk": "2.4.1",
+    "figlet": "1.2.1",
+    "glob": "7.1.3",
+    "inquirer": "6.2.0",
+    "is-json": "2.0.1",
+    "minimist": "1.2.0",
+    "ora": "3.0.0"
+  }
+}
